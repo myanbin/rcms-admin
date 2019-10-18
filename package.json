@@ -7,7 +7,14 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint",
+      "pre-push": "echo Good Luck!"
+    }
+  },
   "dependencies": {
+    "ant-design-vue": "^1.4.0",
     "core-js": "^3.1.2",
     "vue": "^2.6.10",
     "vue-router": "^3.0.6",
@@ -23,6 +30,7 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "husky": "^3.0.9",
     "vue-template-compiler": "^2.6.10"
   }
 }
