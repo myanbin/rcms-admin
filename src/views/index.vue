@@ -31,7 +31,7 @@
   </a-layout-sider>
   <a-layout>
     <a-layout-header :style="{ background: '#fff', padding: '0 16px', display: 'flex' }">
-      <div :style="{ flex: 1 }"> Retired Cadres Management System Admin Board </div>
+      <h2 :style="{ flex: 1 }"> Retired Cadres Management System Admin Board </h2>
       <div>
         <span> 王小虎 </span>
         <a-button shape="circle" icon="poweroff" :style="{ marginLeft: '10px' }" />

@@ -5,6 +5,8 @@ import 'ant-design-vue/dist/antd.css'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+// 导入全局样式文件
+import './assets/styles.css'
 
 Vue.config.productionTip = false
 
