@@ -24,9 +24,9 @@ const appRoutes = [
     component: () => import(/* webpackChunkName: "person" */ '../views/person')
   },
   {
-    path: '/salary',
-    name: 'salary',
-    component: () => import(/* webpackChunkName: "salary" */ '../views/salary')
+    path: '/payroll',
+    name: 'payroll',
+    component: () => import(/* webpackChunkName: "payroll" */ '../views/payroll')
   }
 ]
 

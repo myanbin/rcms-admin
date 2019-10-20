@@ -9,3 +9,6 @@
 .table-operator {
   margin-bottom: 16px;
 }
+.table-operator .ant-btn + .ant-btn {
+  margin-left: 10px;
+}

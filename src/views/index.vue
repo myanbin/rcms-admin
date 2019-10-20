@@ -15,8 +15,8 @@
           <span class="nav-text"> 人员管理 </span>
         </router-link>
       </a-menu-item>
-      <a-menu-item key="salary">
-        <router-link :to="{ name: 'salary' }">
+      <a-menu-item key="payroll">
+        <router-link :to="{ name: 'payroll' }">
           <a-icon type="upload" />
           <span class="nav-text"> 工资管理 </span>
         </router-link>
@@ -34,7 +34,6 @@
       <h2 :style="{ flex: 1 }"> Retired Cadres Management System Admin Board </h2>
       <div>
         <span> 王小虎 </span>
-        <a-button shape="circle" icon="poweroff" :style="{ marginLeft: '10px' }" />
         <a-button shape="circle" icon="poweroff" :style="{ marginLeft: '10px' }" />
       </div>
     </a-layout-header>
